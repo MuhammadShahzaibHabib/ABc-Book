@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'lemon';
+    src: url('./Lemon-Regular.ttf');
+}
+@font-face {
+    font-family: 'abrilfatface';
+    src: url('./AbrilFatface-Regular.ttf');
+}
+@font-face {
+    font-family: 'rubik';
+    src: url('./RubikBurned-Regular.ttf');
+}
+.top{
+    font-size: 50px;
+    font-weight: 400px;
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+#word{
+    letter-spacing: 3px;
+}
+#top{
+    margin: 30px;
+    height: 300px;
+    text-align: center;
+    background-color: aquamarine;
+}
+h1{
+    padding: 30px;
+    font-family: "lemon";
+    font-size: 70px;
+}
+.a{
+    color: red;
+    text-shadow: 5px 3px 5px plum;
+}
+.b{
+    color: yellow;
+    text-shadow: 5px 3px 5px burlywood;
+}
+.c{
+    color: brown;
+    text-shadow: 5px 3px 5px palevioletred;
+
+}
+.d{
+    color: chartreuse;
+    text-shadow: 5px 3px 5px gold;
+}
+/* #imp{
+    text-align: right;
+} */
+.for{
+    margin: 30px;
+    padding: 20px;
+    background: chocolate;
+    height: 50px;
+    font-size: 50px;
+    font-family: 'rubik';
+    color: black;
+    text-shadow: 5px 5px 3px silver;
+}
+.alphabet{
+    font-family: 'abrilfatface';
+    color: blue;
+    font-size: 30px;
+    text-shadow: 5px 3px 3px rgb(36, 157, 205);
+    padding: 50px;
+}
+#form{
+    padding: 50px;
+    color: blue;
+    background-color: rgba(204, 197, 197, 0.9);
+    border: 1px solid blue;
+}
+#go{
+    width: 120px;
+    height: 70px;
+    background-color: rgba(162, 4, 162, 0.468);
+    border-radius: 10px 30px 10px 30px;
+    position: sticky;
+    top: 50%;
+    margin-left: 90%;
+    text-align: center;
+    box-shadow: 5px 5px 3px purple;
+}
+.top:hover{
+    color: blue;
+}
+a:hover{
+    color:  blue;
+}
